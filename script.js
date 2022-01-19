@@ -22,7 +22,7 @@ let minTemp= data.main.temp_min;
 let maxTemp= data.main.temp_max
 let weatherType= data.weather[0].main;
 let windspeed= data.wind.speed;
-html_data=`<div class="card" style="width: 18rem;">
+html_data=`<div class="card" style="width: 19rem;">
 <img src="./img1.jpg" class="card-img-top" alt="...">
 <div class="card-body">
   <h5 class="card-title">${locationName}</h5>
